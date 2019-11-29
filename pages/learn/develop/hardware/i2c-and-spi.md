@@ -49,9 +49,9 @@ To get you started, here is an [example][i2c-example] that uses i2c to communica
 
 ### SPI
 
-SPI is enabled by default and should work out of the box with the [spi node module][spi-npm].
+SPI is enabled by default.
 
-For an example of this, check our this project: [digitiser][digitiser-link].
+For Node.js users it should work out of the box with the [spi node module][spi-npm]. For an example of this, check out this project: [digitiser][digitiser-link].
 
 ### Serial
 
