@@ -75,6 +75,8 @@ After your application development is mostly complete, it's important to do some
 
 At this point it makes sense to move from development {{ $names.os.lower }} images to full production images, ensuring that your application still runs properly without full local console access. You can still [access][ssh] the host OS and application containers via the {{ $names.company.lower }} dashboard and CLI, but the production {{ $names.os.lower }} image will close all open inbound ports.
 
+For Production and Enterprise plan users who require a stable, supported release, you should choose an [ESR version][esr] of the host OS. An ESR version guarantees that you will only have to update the host OS on the devices at most twice a year to ensure you are on a supported version. You can view devices that have ESR versions of the host OS [here][esr-devices].
+
 ### Test outside the lab
 
 Testing outside the lab helps you see how your application behaves in networks that are not fully under your control. Ideally, this should be done in an environment that mimics where your devices will be when they are in production, but is still at least somewhat accessible. For example, if you are building a consumer device, you could have your employees and their families test in their homes. You might also look for customers who are willing to be alpha testers, who might provide feedback about your application while understanding that it's not quite done yet.
@@ -125,7 +127,6 @@ The {{ $names.company.lower }} API includes functionality that allows for [fine-
 [preload]:/reference/cli/#preload-image-
 [staged-releases]:{{ $links.githubProjects }}/staged-releases
 [tags]:/learn/manage/filters-tags/#device-tags
-[filters]:/learn/manage/filters-tags/#device-filters
-
-
-
+[filters]:/learn/manage/filters-tags/#device
+[esr]:/reference/os/extended-support-release
+[esr-devices]:/reference/os/extended-support-release#supported-devices

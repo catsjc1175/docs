@@ -37,7 +37,7 @@ For device types and {{ $names.os.lower }} versions that are not yet supported, 
 
 To run an update for an individual device, navigate to that device's *Actions* tab, click *Update {{ $names.os.lower }}*, and select the version of {{ $names.os.lower }} you would like to update to:
 
-<img src="/img/common/updates/update-os.png" width="80%">
+<img src="/img/common/updates/update-os.png" width="70%">
 
 Updates can also be made to multiple devices in the same application. From the device list, click the checkbox to the left of any online devices you wish to update. Then click the *Group Actions* button in the upper-right corner of the dashboard, followed by *Update {{ $names.os.lower }}*:
 
